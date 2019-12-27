@@ -1,3 +1,4 @@
+// conditional rendering
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -6,11 +7,15 @@ import Welcome from './components/Welcome.js'
 import Message from './components/Message'
 import Counter from './components/Counter'
 import ParentComponent from './components/parentComponent'
+import UserGreeting from './components/userGreeting';
+import NameList from './components/NameList';
 
 
 function App() {
   return (
     <div className="App">
+      <NameList/>
+      <UserGreeting/>
       <ParentComponent/>
       <Counter></Counter>
       <Message/>
