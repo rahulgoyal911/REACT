@@ -1,3 +1,4 @@
+// state with props and children
 import React, { Component } from 'react'
 
 class Message extends Component {

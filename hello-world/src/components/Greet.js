@@ -1,10 +1,11 @@
+// stateless function
 import React from 'react'
 const  Greet = (props) => {
     console.log(props);
     return (
         <div>
             <h1>
-                Helloa {props.name}
+                Hello {props.name}
             </h1>
             {props.children}
         </div>

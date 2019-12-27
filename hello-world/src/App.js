@@ -4,10 +4,15 @@ import './App.css';
 import Greet from './components/Greet.js'
 import Welcome from './components/Welcome.js'
 import Message from './components/Message'
+import Counter from './components/Counter'
+import ParentComponent from './components/parentComponent'
+
 
 function App() {
   return (
     <div className="App">
+      <ParentComponent/>
+      <Counter></Counter>
       <Message/>
       <Greet name="rahul">
         <p>this is children tag</p>
@@ -16,6 +21,7 @@ function App() {
         <button>Action</button>
       </Greet>
       <Welcome/>
+      
   
     </div>
   );
