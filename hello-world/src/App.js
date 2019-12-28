@@ -9,11 +9,15 @@ import Counter from './components/Counter'
 import ParentComponent from './components/parentComponent'
 import UserGreeting from './components/userGreeting';
 import NameList from './components/NameList';
+import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
 
 
-function App() {
+function App() {  
   return (
     <div className="App">
+      <LifecycleA/>
+      <Form></Form>
       <NameList/>
       <UserGreeting/>
       <ParentComponent/>
